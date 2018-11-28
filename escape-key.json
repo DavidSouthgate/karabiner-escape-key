@@ -1,8 +1,8 @@
 {
-  "title": "Escape Key Map UK",
+  "title": "Escape Key Map (UK)",
   "rules": [
     {
-      "description": "Remap non_us_backslash key to be escape key. Meant for UK Macbook Pro. Maps non_us_backslash as Escape and fn + non_us_backslash as non_us_backslash",
+      "description": "Remap §/± key to be escape key. Meant for UK Macbook Pro. Maps non_us_backslash as Escape and fn + non_us_backslash as non_us_backslash",
       "manipulators": [
         {
           "type": "basic",
