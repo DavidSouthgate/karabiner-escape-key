@@ -10,8 +10,8 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "vendor_id": 635,
-                  "product_id": 1452
+                  "vendor_id": 1452,
+                  "product_id": 635
                 }
               ]
             }
@@ -40,8 +40,8 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "vendor_id": 635,
-                  "product_id": 1452
+                  "vendor_id": 1452,
+                  "product_id": 635
                 }
               ]
             }
@@ -70,8 +70,8 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "vendor_id": 635,
-                  "product_id": 1452
+                  "vendor_id": 1452,
+                  "product_id": 635
                 }
               ]
             }
