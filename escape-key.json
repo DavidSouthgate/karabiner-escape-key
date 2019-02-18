@@ -55,8 +55,8 @@
         }
       ]
     },
-        {
-      "description": "§/± key to be escape key (Internal Apple Keyboard Specific)",
+    {
+      "description": "§/± key to be escape key 2",
       "manipulators": [
         {
           "conditions": [
