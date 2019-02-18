@@ -3,14 +3,19 @@
   "rules": [
     {
       "description": "§/± key to be escape key",
-      "identifiers": {
-        "is_keyboard": true,
-        "is_pointing_device": false,
-        "product_id": 635,
-        "vendor_id": 1452
-      },
       "manipulators": [
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 635,
+                  "product_id": 1452
+                }
+              ]
+            }
+          ],
           "type": "basic",
           "from": {
             "key_code": "non_us_backslash",
@@ -30,6 +35,17 @@
           ]
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 635,
+                  "product_id": 1452
+                }
+              ]
+            }
+          ],
           "type": "basic",
           "from": {
             "key_code": "grave_accent_and_tilde",
@@ -49,6 +65,17 @@
           ]
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 635,
+                  "product_id": 1452
+                }
+              ]
+            }
+          ],
           "type": "basic",
           "from": {
             "key_code": "non_us_backslash"
